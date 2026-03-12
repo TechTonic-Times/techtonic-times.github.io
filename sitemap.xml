@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/article/artificial-intelligence-replacing-tech-workers-1203.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/article/youtube-ai-deepfake-detection-politicians-1103.html</loc>
     <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/article/anthropic-sues-trump-pentagon-ai-safety-blacklist-1003.html</loc>
