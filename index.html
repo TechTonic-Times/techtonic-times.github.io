@@ -38,43 +38,57 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <!-- Combined Structured Data: Website + Organization + NewsArticle -->
 <script type="application/ld+json">
+[
 {
   "@context": "https://schema.org",
-  "@graph":[
+  "@type": "WebSite",
+  "name": "TechTonic Times",
+  "url": "https://techtonic-times.github.io/",
+  "description": "Where science meets tomorrow. Latest in AI, defence, innovation & digital culture.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechTonic Times",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://techtonic-times.github.io/tt-tfavicon512.png",
+      "width": 512,
+      "height": 512
+    }
+  }
+},
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "TechTonic Times",
+  "alternateName": "TTT",
+  "url": "https://techtonic-times.github.io/",
+  "logo": "https://techtonic-times.github.io/tt-tfavicon512.png",
+  "image": "https://techtonic-times.github.io/tt-tfavicon512.png",
+  "sameAs": [
+    "https://facebook.com/techtonictimes",
+    "https://twitter.com/techtonic_times",
+    "https://instagram.com/techtonic_times",
+    "https://linkedin.com/company/techtonictimes",
+    "https://youtube.com/techtonic_times"
+  ]
+},
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
     {
-      "@type": "Organization",
-      "@id": "https://techtonic-times.github.io/#organization",
-      "name": "TechTonic Times",
-      "url": "https://techtonic-times.github.io/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://techtonic-times.github.io/tt-tfavicon512.png"
-      },
-      "sameAs":[
-        "https://facebook.com/techtonictimes",
-        "https://twitter.com/techtonic_times",
-        "https://instagram.com/techtonictimes",
-        "https://linkedin.com/company/techtonictimes",
-        "https://youtube.com/techtonictimes"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://techtonic-times.github.io/#website",
-      "url": "https://techtonic-times.github.io/",
-      "name": "TechTonic Times",
-      "publisher": {
-        "@id": "https://techtonic-times.github.io/#organization"
-      },
-      "potentialAction":{
-        "@type":"SearchAction",
-        "target":"https://techtonic-times.github.io/search?q={search_term_string}",
-        "query-input":"required name=search_term_string"
-      }
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://techtonic-times.github.io/"
     }
   ]
 }
+]
 </script>
+
+
+  
 <style>
 /* === EXACT THEME VARIABLES + DARK MODE === */
 :root {
