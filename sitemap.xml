@@ -3,6 +3,12 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/article/gemini-ai-google-maps-immersive-navigation-update-1303.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/article/meta-acquires-moltbook-ai-agent-network-1203.html</loc>
     <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
