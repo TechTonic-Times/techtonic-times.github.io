@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
-    <loc>https://techtonic-times.github.io/article/china-dual-tower-solar-power-plant-1303.html</loc>
+    <loc>https://techtonic-times.github.io/article/lab-grown-meat-health-risks-cancer-cells-1303.html</loc>
     <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://techtonic-times.github.io/article/china-dual-tower-solar-power-plant-1303.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/article/gemini-ai-google-maps-immersive-navigation-update-1303.html</loc>
