@@ -3,6 +3,13 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/article/nasa-dragonfly-nuclear-drone-titan-mission-1603.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtonic-times.github.io/article/world-first-bci-approval-neuralink-competition-1603.html</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>weekly</changefreq>
