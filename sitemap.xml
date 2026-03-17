@@ -3,10 +3,17 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/article/how-induction-cooker-works-1703.html</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
     <loc>https://techtonic-times.github.io/article/microsoft-project-silica-glass-storage-1603.html</loc>
     <lastmod>2026-03-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/article/nasa-dragonfly-nuclear-drone-titan-mission-1603.html</loc>
