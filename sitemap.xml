@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
-    <loc>https://techtonic-times.github.io/article/pokemon-go-players-unpaid-ai-workforce-delivery-robots-2303.html</loc>
+    <loc>https://techtonic-times.github.io/article/crunchyroll-hack-third-party-supply-chain-attack-2303.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://techtonic-times.github.io/article/pokemon-go-players-unpaid-ai-workforce-delivery-robots-2303.html</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/article/blue-origin-asteroid-defense-planetary-shield-2303.html</loc>
