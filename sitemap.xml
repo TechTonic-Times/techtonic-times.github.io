@@ -4,10 +4,16 @@
   <!-- LATEST ARTICLE  - Highest Priority -->
 
 <url>
+    <loc>https://techtonic-times.github.io/article/indian-ocean-gravity-hole-new-explanation-2505.html</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/article/oldest-dental-surgery-evidence-in-neanderthals-59000-year-tooth-2405.html</loc>
     <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/article/ai-in-education-pros-and-cons-school-impact-2305.html</loc>
