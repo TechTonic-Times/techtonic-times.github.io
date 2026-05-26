@@ -4,10 +4,16 @@
   <!-- LATEST ARTICLE  - Highest Priority -->
 
 <url>
+    <loc>https://techtonic-times.github.io/article/black-hole-singularity-may-not-exist-study-2605.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/article/wifi-surveillance-technology-privacy-research-2505.html</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/article/ai-chips-for-spies-us-intelligence-push-2505.html</loc>
