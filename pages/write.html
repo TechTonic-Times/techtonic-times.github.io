@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Write For Us | TechTonic Times – Science & Technology News</title>
+  <meta name="description" content="Share your science and technology expertise with TechTonic Times. We welcome guest contributors passionate about AI, robotics, space, innovation, and the future.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://techtonic-times.github.io/write-for-us.html">
+  
+  <!-- === OPEN GRAPH / SOCIAL === -->
+  <meta property="og:title" content="Write For TechTonic Times">
+  <meta property="og:description" content="Share your science and technology expertise with our global audience of tech enthusiasts and researchers.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://techtonic-times.github.io/write-for-us.html">
+  <meta property="og:image" content="https://techtonic-times.github.io/favicon-512x512.png">
+  <meta property="og:site_name" content="TechTonic Times">
+  
+  <!-- === TWITTER CARD === -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Write For TechTonic Times">
+  <meta name="twitter:description" content="Share your science and technology expertise with our global audience.">
+  <meta name="twitter:image" content="https://techtonic-times.github.io/favicon-512x512.png">
+  
+  <!-- === META TAGS === -->
+  <meta name="color-scheme" content="dark">
+  <meta name="application-name" content="TechTonic Times">
+  <meta name="theme-color" content="#0a0a0f">
+  
+  <!-- === FAVICONS === -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512x512.png">
+  
+  <!-- === GOOGLE ANALYTICS === -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3890ESTNYT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3890ESTNYT');
+  </script>
+
+  <!-- === SCHEMA.ORG JSON-LD === -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Write For TechTonic Times",
+    "description": "Contribute your science and technology expertise to TechTonic Times.",
+    "url": "https://techtonic-times.github.io/write-for-us.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "TechTonic Times",
+      "logo": { "@type": "ImageObject", "url": "https://techtonic-times.github.io/favicon-512x512.png", "width": 512, "height": 512 }
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"What topics are accepted?","acceptedAnswer":{"@type":"Answer","text":"We accept articles on Technology & Innovation, Science & Research, AI & Data, Cyber World, Future Technology, and Digital Culture."}},
+      {"@type":"Question","name":"Can beginners contribute?","acceptedAnswer":{"@type":"Answer","text":"Yes! We welcome writers at all experience levels. Focus on clear, accurate, and engaging storytelling."}},
+      {"@type":"Question","name":"Are AI-assisted articles allowed?","acceptedAnswer":{"@type":"Answer","text":"AI tools may assist with research or formatting, but all content must have human oversight, original insight, and editorial review."}},
+      {"@type":"Question","name":"How long should articles be?","acceptedAnswer":{"@type":"Answer","text":"We recommend 800–2000+ words. Quality and clarity matter more than length."}},
+      {"@type":"Question","name":"Will contributors receive credit?","acceptedAnswer":{"@type":"Answer","text":"Yes. All published articles include author name, bio, and optional profile links."}},
+      {"@type":"Question","name":"Can articles be updated later?","acceptedAnswer":{"@type":"Answer","text":"Yes. We may update articles for accuracy, clarity, or new developments with transparency notes."}}
+    ]
+  }
+  </script>
+  
+  <!-- === FONTS & ICONS === -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --teal: #12ABB0;
+      --teal-glow: rgba(18, 171, 176, 0.4);
+      --teal-light: #18c4c9;
+      --black: #0a0a0f;
+      --black-card: #11131a;
+      --gray: #8a94a6;
+      --gray-light: #c5cdd9;
+      --white: #ffffff;
+      --border: rgba(18, 171, 176, 0.25);
+      --border-light: rgba(255, 255, 255, 0.12);
+      --shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+      --shadow-glow: 0 0 25px var(--teal-glow);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --spacing-sm: 0.7rem;
+      --spacing-md: 1rem;
+      --spacing-lg: 1.4rem;
+      --spacing-xl: 2rem;
+      --transition: all 0.3s ease;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      background: var(--black);
+      color: var(--gray-light);
+      line-height: 1.6;
+      background-image: radial-gradient(circle at 10% 20%, rgba(18, 171, 176, 0.06) 0%, transparent 30%);
+      background-attachment: fixed;
+    }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 0 1rem; }
+    
+    /* ===== LOGO HEADER ===== */
+    .logo-header {
+      text-align: center;
+      padding: 1.5rem 0 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .logo-big {
+      display: inline-flex; align-items: baseline; gap: 0.3rem; text-decoration: none;
+    }
+    .logo-white-big { font-size: 2.5rem; font-weight: 800; color: var(--white); letter-spacing: -1.5px; }
+    .logo-teal-big { font-size: 2.5rem; font-weight: 800; color: var(--teal); letter-spacing: -1.5px; }
+    .logo-tagline { font-size: 0.9rem; color: var(--gray); margin-top: 0.2rem; }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      text-align: center;
+      padding: 2.5rem 0 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(18, 171, 176, 0.12) 0%, transparent 60%);
+      z-index: 0;
+      animation: pulse 10s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+    
+    .hero-content { position: relative; z-index: 2; }
+    .hero-title {
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 800;
+      color: var(--white);
+      margin-bottom: 0.5rem;
+      letter-spacing: -1px;
+    }
+    .hero-title span { color: var(--teal); }
+    .hero-subtitle {
+      font-size: 1rem;
+      color: var(--gray);
+      max-width: 550px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.7;
+    }
+    
+    .email-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 1rem 2.5rem;
+      background: var(--teal);
+      color: var(--white);
+      border: 2px solid var(--teal);
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: var(--transition);
+      margin: 0.5rem 0;
+      box-shadow: 0 4px 20px rgba(18, 171, 176, 0.3);
+    }
+    .email-btn:hover {
+      background: var(--teal-light);
+      border-color: var(--teal-light);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 30px var(--teal-glow);
+    }
+    .email-btn i { font-size: 1.2rem; }
+
+    /* ===== SECTIONS ===== */
+    .section { padding: 1.8rem 0; }
+    .section-header {
+      text-align: center;
+      margin-bottom: 1.2rem;
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+    .section-desc {
+      font-size: 0.95rem;
+      color: var(--gray);
+      max-width: 550px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    /* ===== FEATURE CARDS ===== */
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+    }
+    .feature-card {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1rem;
+      text-align: center;
+      transition: var(--transition);
+    }
+    .feature-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-glow);
+    }
+    .feature-icon {
+      font-size: 1.4rem;
+      color: var(--teal);
+      margin-bottom: 0.4rem;
+    }
+    .feature-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+    }
+    .feature-desc {
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+
+    /* ===== TOPIC CARDS ===== */
+    .topics-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+    }
+    .topic-card {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1rem;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .topic-card::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--teal), transparent);
+      opacity: 0;
+      transition: var(--transition);
+    }
+    .topic-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-3px);
+    }
+    .topic-card:hover::after { opacity: 1; }
+    .topic-icon {
+      font-size: 1.5rem;
+      color: var(--teal);
+      margin-bottom: 0.4rem;
+    }
+    .topic-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+    }
+    .topic-desc {
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+
+    /* ===== GUIDELINES ===== */
+    .guidelines-box {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.2rem;
+      margin: 0 auto;
+      max-width: 650px;
+    }
+    .guidelines-list {
+      list-style: none;
+    }
+    .guidelines-list li {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border-light);
+      font-size: 0.9rem;
+      color: var(--gray-light);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    .guidelines-list li:last-child { border-bottom: none; }
+    .guidelines-list li i { color: var(--teal); margin-top: 0.2rem; flex-shrink: 0; }
+    
+    .guidelines-note {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border-light);
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+    .guidelines-note strong { color: var(--teal-light); }
+
+    /* ===== GREAT ARTICLE CARDS ===== */
+    .great-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+    }
+    .great-card {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1rem;
+      transition: var(--transition);
+    }
+    .great-card:hover {
+      border-color: var(--teal);
+      transform: translateY(-2px);
+    }
+    .great-icon {
+      font-size: 1.3rem;
+      color: var(--teal);
+      margin-bottom: 0.4rem;
+    }
+    .great-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 0.3rem;
+    }
+    .great-desc {
+      font-size: 0.8rem;
+      color: var(--gray);
+      line-height: 1.5;
+    }
+
+    /* ===== RESTRICTIONS ===== */
+    .restrictions-box {
+      background: rgba(255, 100, 100, 0.08);
+      border: 1px solid rgba(255, 100, 100, 0.3);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin: 1.2rem auto;
+      max-width: 650px;
+      text-align: center;
+    }
+    .restrictions-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #ff6464;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+    }
+    .restrictions-list {
+      font-size: 0.85rem;
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    /* ===== SUBMISSION ===== */
+    .submission-box {
+      background: var(--black-card);
+      border: 2px solid var(--teal);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      margin: 1.5rem auto;
+      max-width: 600px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .submission-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--teal), var(--teal-light), transparent);
+    }
+    .submission-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.8rem;
+    }
+    .submission-list {
+      list-style: none;
+      text-align: left;
+      margin: 0 auto 1rem;
+      max-width: 450px;
+    }
+    .submission-list li {
+      padding: 0.3rem 0;
+      font-size: 0.9rem;
+      color: var(--gray-light);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    .submission-list li i { color: var(--teal); margin-top: 0.2rem; }
+    
+    .email-highlight {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: rgba(18, 171, 176, 0.12);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--teal-light);
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 0.8rem 0;
+      font-family: var(--font-mono);
+    }
+
+    /* ===== FAQ ===== */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+    .faq-card {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+    }
+    .faq-question {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      background: transparent;
+      border: none;
+      text-align: left;
+      color: var(--white);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: var(--transition);
+    }
+    .faq-question:hover { color: var(--teal); }
+    .faq-icon { color: var(--teal); transition: var(--transition); }
+    .faq-card.active .faq-icon { transform: rotate(180deg); }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+      padding: 0 1rem;
+    }
+    .faq-card.active .faq-answer {
+      max-height: 250px;
+      padding: 0 1rem 0.8rem;
+    }
+    .faq-answer p {
+      font-size: 0.85rem;
+      color: var(--gray);
+      line-height: 1.6;
+    }
+
+    /* ===== FOOTER (EXACT MATCH) ===== */
+    footer {
+      text-align: center;
+      padding: 1rem 0.5rem 0.8rem;
+      color: var(--gray);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 1.5rem;
+    }
+    footer a { color: var(--teal); text-decoration: none; transition: var(--transition); }
+    footer a:hover { text-shadow: 0 0 12px var(--teal-glow); color: var(--teal-light); }
+    .quick-links-heading {
+      text-align: center;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.8rem;
+      position: relative;
+    }
+    .quick-links-heading::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: var(--teal);
+      margin: 0.4rem auto 0;
+      border-radius: 2px;
+    }
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem 0.8rem;
+      margin: 0.8rem auto 1rem;
+      padding: 0;
+      list-style: none;
+      max-width: 480px;
+    }
+    .quick-links li a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: #ffffff;
+      padding: 0.45rem 0.3rem;
+      transition: var(--transition);
+    }
+    .quick-links li a i {
+      font-size: 0.95rem;
+      color: var(--teal);
+      width: 18px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .quick-links li a:hover {
+      color: var(--teal-light);
+      transform: translateX(3px);
+    }
+    .quick-links li a:hover i { color: var(--teal-light); }
+    .footer-bottom {
+      margin-top: 0.8rem;
+      padding-top: 0.8rem;
+      border-top: 1px solid rgba(18, 171, 176, 0.15);
+      font-size: 0.8rem;
+    }
+
+    /* ===== ANIMATIONS ===== */
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.5s ease, transform 0.5s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 600px) {
+      .logo-white-big, .logo-teal-big { font-size: 2rem; }
+      .features-grid, .topics-grid, .great-grid { grid-template-columns: 1fr; }
+      .quick-links { grid-template-columns: repeat(2, 1fr); gap: 0.4rem 0.6rem; max-width: 340px; }
+      .quick-links li a { font-size: 0.84rem; padding: 0.4rem 0.2rem; }
+      footer { padding: 0.8rem 0.3rem 0.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== LOGO HEADER ===== -->
+  <header class="logo-header">
+    <div class="container">
+      <a href="https://techtonic-times.github.io/article/" class="logo-big">
+        <span class="logo-white-big">TechTonic</span>
+        <span class="logo-teal-big">Times</span>
+      </a>
+      <p class="logo-tagline">Science & Technology News</p>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 class="hero-title">Write For <span>TechTonic Times</span></h1>
+      <p class="hero-subtitle">Share science, technology, AI, and future-focused stories with a growing global audience of tech enthusiasts, researchers, and innovators.</p>
+      
+      <a href="mailto:businesscontact1107@gmail.com" class="email-btn">
+        <i class="fas fa-paper-plane"></i>
+        Send Your Article
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT CONTRIBUTING ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Contribute?</h2>
+        <p class="section-desc">TechTonic Times welcomes writers passionate about science and technology. Share your insights with readers who value accurate, engaging, and future-focused storytelling.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-globe"></i></div>
+          <h3 class="feature-name">Global Audience</h3>
+          <p class="feature-desc">Reach tech enthusiasts and professionals worldwide</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-flask"></i></div>
+          <h3 class="feature-name">Science-Focused</h3>
+          <p class="feature-desc">Readers who value research and accuracy</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+          <h3 class="feature-name">Innovation Topics</h3>
+          <p class="feature-desc">Cover emerging tech and future trends</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOPICS WE ACCEPT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Topics We Accept</h2>
+        <p class="section-desc">We publish content across six core categories focused on science, technology, and the future.</p>
+      </div>
+      <div class="topics-grid">
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-microchip"></i></div>
+          <h3 class="topic-name">Technology & Innovation</h3>
+          <p class="topic-desc">Breakthrough tech, engineering, startups, and global innovation trends</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-flask"></i></div>
+          <h3 class="topic-name">Science & Research</h3>
+          <p class="topic-desc">Scientific discoveries, studies, and research developments</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-brain"></i></div>
+          <h3 class="topic-name">AI & Data</h3>
+          <p class="topic-desc">Artificial intelligence, machine learning, and data systems</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3 class="topic-name">Cyber World</h3>
+          <p class="topic-desc">Cybersecurity, privacy, digital infrastructure, and internet tech</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-rocket"></i></div>
+          <h3 class="topic-name">Future Technology</h3>
+          <p class="topic-desc">Emerging tech that could reshape civilization and humanity</p>
+        </div>
+        <div class="topic-card">
+          <div class="topic-icon"><i class="fas fa-gamepad"></i></div>
+          <h3 class="topic-name">Digital Culture</h3>
+          <p class="topic-desc">How technology shapes society, media, and digital lifestyles</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ARTICLE GUIDELINES ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Article Guidelines</h2>
+        <p class="section-desc">Help us maintain quality by following these editorial standards.</p>
+      </div>
+      
+      <div class="guidelines-box">
+        <ul class="guidelines-list">
+          <li><i class="fas fa-check-circle"></i> Original content only — no plagiarism or duplicate submissions</li>
+          <li><i class="fas fa-check-circle"></i> Clear, accurate, and fact-based information</li>
+          <li><i class="fas fa-check-circle"></i> Credible sources preferred — link to research when possible</li>
+          <li><i class="fas fa-check-circle"></i> Reader-friendly formatting — short paragraphs, clear headings</li>
+          <li><i class="fas fa-check-circle"></i> Engaging headlines that accurately reflect content</li>
+          <li><i class="fas fa-check-circle"></i> Mobile readability — avoid overly complex formatting</li>
+          <li><i class="fas fa-check-circle"></i> Future-focused perspective encouraged</li>
+        </ul>
+        <div class="guidelines-note">
+          <strong>Recommended length:</strong> 800–2000+ words<br>
+          <strong>Writing style:</strong> Clear, informative, professional, accessible to general readers
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT MAKES A GREAT ARTICLE ===== -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">What Makes a Great Article</h2>
+    </div>
+    <div class="great-grid">
+      <div class="great-card">
+        <div class="great-icon"><i class="fas fa-heading"></i></div>
+        <h3 class="great-name">Strong Headline</h3>
+        <p class="great-desc">Clear, compelling, and accurate</p>
+      </div>
+      <div class="great-card">
+        <div class="great-icon"><i class="fas fa-play-circle"></i></div>
+        <h3 class="great-name">Engaging Intro</h3>
+        <p class="great-desc">Hook readers in the first paragraph</p>
+      </div>
+      <div class="great-card">
+        <div class="great-icon"><i class="fas fa-database"></i></div>
+        <h3 class="great-name">Reliable Info</h3>
+        <p class="great-desc">Fact-based with credible sources</p>
+      </div>
+      <div class="great-card">
+        <div class="great-icon"><i class="fas fa-lightbulb"></i></div>
+        <h3 class="great-name">Reader Curiosity</h3>
+        <p class="great-desc">Answer questions readers actually have</p>
+      </div>
+     <div class="great-card">
+  <div class="great-icon"><i class="fas fa-binoculars"></i></div>
+  <h3 class="great-name">Future Implications</h3>
+  <p class="great-desc">Explore what this means for tomorrow • Include source info when citing studies or data</p>
+</div>
+      <div class="great-card">
+        <div class="great-icon"><i class="fas fa-search"></i></div>
+        <h3 class="great-name">SEO-Friendly</h3>
+        <p class="great-desc">Natural keywords, clear structure</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===== CONTENT RESTRICTIONS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Content Restrictions</h2>
+        <p class="section-desc">To maintain quality and trust, we do not accept:</p>
+      </div>
+      
+      <div class="restrictions-box">
+        <div class="restrictions-title">
+          <i class="fas fa-ban"></i>
+          Prohibited Content
+        </div>
+        <p class="restrictions-list">
+          Plagiarism • Misinformation • AI-generated spam • Hate speech • Misleading claims • Copyright violations
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW TO SUBMIT ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">How to Submit</h2>
+        <p class="section-desc">Send your completed article draft directly via email. Include the following:</p>
+      </div>
+      
+      <div class="submission-box">
+        <h3 class="submission-title">Submission Checklist</h3>
+        <ul class="submission-list">
+          <li><i class="fas fa-check"></i> Completed article draft (800–2000+ words)</li>
+          <li><i class="fas fa-check"></i> Your full name and short author bio</li>
+          <li><i class="fas fa-check"></i> Article category (e.g., AI & Data)</li>
+          <li><i class="fas fa-check"></i> Article title and working headline</li>
+          <li><i class="fas fa-check"></i> Sources or references (if applicable)</li>
+          <li><i class="fas fa-check"></i> Optional: Social/profile links</li>
+        </ul>
+        
+        <div class="email-highlight">businesscontact1107@gmail.com</div>
+        
+        <a href="mailto:businesscontact1107@gmail.com" class="email-btn" style="margin-top: 0.5rem; padding: 0.8rem 2rem; font-size: 1rem;">
+          <i class="fas fa-paper-plane"></i>
+          Send Your Article
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">FAQ</h2>
+      </div>
+      
+      <div class="faq-list">
+        <div class="faq-card">
+          <button class="faq-question">
+            <span>What topics are accepted?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We accept articles on Technology & Innovation, Science & Research, AI & Data, Cyber World, Future Technology, and Digital Culture.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-question">
+            <span>Can beginners contribute?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes! We welcome writers at all experience levels. Focus on clear, accurate, and engaging storytelling.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-question">
+            <span>Are AI-assisted articles allowed?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>AI tools may assist with research or formatting, but all content must have human oversight, original insight, and editorial review.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-question">
+            <span>How long should articles be?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We recommend 800–2000+ words. Quality and clarity matter more than length.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-question">
+            <span>Will contributors receive credit?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. All published articles include author name, bio, and optional profile links.</p>
+          </div>
+        </div>
+        <div class="faq-card">
+          <button class="faq-question">
+            <span>Can articles be updated later?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. We may update articles for accuracy, clarity, or new developments with transparency notes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXACT FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="quick-links-heading">Quick Links</div>
+      <ul class="quick-links">
+        <li><a href="https://techtonic-times.github.io/article/"><i class="fas fa-home"></i><span>Home</span></a></li>
+        <li><a href="about-us.html"><i class="fas fa-info-circle"></i><span>About Us</span></a></li>
+        <li><a href="contact-us.html"><i class="fas fa-envelope"></i><span>Contact Us</span></a></li>
+        <li><a href="terms.html"><i class="fas fa-file-contract"></i><span>Terms & Conditions</span></a></li>
+        <li><a href="disclaimer.html"><i class="fas fa-shield-alt"></i><span>Disclaimer</span></a></li>
+        <li><a href="privacy.html"><i class="fas fa-lock"></i><span>Privacy Policy</span></a></li>
+      </ul>
+      <div class="footer-bottom">
+        <p>&copy; 2026 TechTonic Times. All rights reserved.</p>
+        <p><a href="https://techtonic-times.github.io/article/">techtonic-times.github.io/article/</a></p>
+        <p style="margin-top: 0.1rem; color: var(--gray);">Last updated: May 28, 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Scroll reveal animations
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+      
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+      // FAQ accordion
+      document.querySelectorAll('.faq-question').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.faq-card');
+          const isOpen = card.classList.contains('active');
+          
+          // Close all
+          document.querySelectorAll('.faq-card').forEach(c => {
+            c.classList.remove('active');
+            c.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+          });
+          
+          // Open clicked if it was closed
+          if (!isOpen) {
+            card.classList.add('active');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

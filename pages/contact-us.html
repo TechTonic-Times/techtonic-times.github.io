@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | TechTonic Times</title>
+  <meta name="description" content="Contact TechTonic Times for feedback, corrections, collaborations, media inquiries, and questions related to our science and technology content.">
+  
+  <!-- === META TAGS === -->
+  <meta name="color-scheme" content="light dark">
+  <meta name="application-name" content="TechTonic Times">
+  <meta name="generator" content="TechTonic Times CMS">
+  <meta name="apple-mobile-web-app-title" content="TechTonic Times">
+  
+  <!-- === FAVICONS === -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon-64x64.png">
+  <link rel="icon" type="image/png" sizes="128x128" href="favicon-128x128.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512x512.png">
+  
+  <!-- === GOOGLE ANALYTICS === -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3890ESTNYT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3890ESTNYT');
+  </script>
+  
+
+ <!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Contact TechTonic Times",
+  "url": "https://techtonic-times.github.io/article/contact-us.html",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "TechTonic Times",
+    "url": "https://techtonic-times.github.io/",
+    "logo": "https://techtonic-times.github.io/favicon-512x512.png",
+    "description": "Contact TechTonic Times for inquiries, feedback, corrections, collaborations, and general communication related to science and technology news coverage.",
+    "sameAs": [
+      "https://x.com/techtonic_times"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "url": "https://techtonic-times.github.io/article/contact-us.html",
+      "availableLanguage": [
+        "English"
+      ]
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "TechTonic Times",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://techtonic-times.github.io/favicon-512x512.png",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+  
+  <!-- === FONTS === -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- === FONT AWESOME ICONS === -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --teal: #12ABB0;
+      --teal-glow: rgba(18, 171, 176, 0.4);
+      --teal-light: #18c4c9;
+      --black: #0a0a0f;
+      --black-card: #11131a;
+      --gray: #8a94a6;
+      --gray-light: #c5cdd9;
+      --border: rgba(18, 171, 176, 0.25);
+      --shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+      --shadow-glow: 0 0 25px var(--teal-glow);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--black);
+      color: var(--gray-light);
+      line-height: 1.7;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(18, 171, 176, 0.1) 0%, transparent 25%),
+        radial-gradient(circle at 90% 80%, rgba(18, 171, 176, 0.08) 0%, transparent 30%);
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 1rem 0.75rem 2rem;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 1.2rem 0.5rem 1rem;
+    }
+
+    .site-name {
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      gap: 0.25rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.1rem;
+    }
+
+    .site-name-white {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: -1.5px;
+      text-decoration: none;
+    }
+
+    .site-name-teal {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--teal);
+      letter-spacing: -1.5px;
+      text-decoration: none;
+    }
+
+    .page-title {
+      font-size: 1.6rem;
+      color: var(--teal);
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+      letter-spacing: -0.5px;
+    }
+
+    .effective-date {
+      color: var(--gray);
+      font-size: 0.85rem;
+      margin-bottom: 0.8rem;
+      display: block;
+    }
+
+    .intro {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin: 0.8rem 0 1.2rem;
+      font-size: 0.98rem;
+      box-shadow: var(--shadow);
+    }
+
+    .intro strong { color: var(--teal); }
+
+    /* Sections */
+    section {
+      background: var(--black-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 0.9rem;
+      margin-bottom: 0.8rem;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+
+    section:hover {
+      border-color: var(--teal);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow), var(--shadow-glow);
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 1.2rem;
+      margin: 0 0 0.7rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    h2::before {
+      content: "";
+      width: 4px;
+      height: 14px;
+      background: var(--teal);
+      border-radius: 2px;
+      display: inline-block;
+    }
+
+    p {
+      margin-bottom: 0.7rem;
+      color: var(--gray-light);
+      padding: 0 0.1rem;
+      font-size: 0.97rem;
+    }
+
+    ul {
+      margin: 0.6rem 0 0.6rem 1.2rem;
+      color: var(--gray-light);
+      padding-left: 0.2rem;
+    }
+
+    li {
+      margin-bottom: 0.3rem;
+      padding-left: 0.1rem;
+      font-size: 0.97rem;
+    }
+
+    li::marker {
+      color: var(--teal);
+      font-weight: 500;
+    }
+
+    .highlight, .warning {
+      border-left: 3px solid var(--teal);
+      padding: 0.7rem 0.8rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 0.7rem 0;
+      font-size: 0.94rem;
+    }
+
+    .warning {
+      border-left-color: #ff6464;
+      background: rgba(255, 100, 100, 0.1);
+      color: #ffb3b3;
+    }
+
+    .highlight {
+      background: rgba(18, 171, 176, 0.12);
+    }
+
+    /* Fully Clickable Contact Cards */
+    .contact-methods {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.8rem;
+      margin: 0.8rem 0;
+    }
+
+    .contact-method {
+      background: rgba(18, 171, 176, 0.08);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.9rem;
+      text-align: center;
+      transition: var(--transition);
+      text-decoration: none;
+      color: var(--gray-light);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .contact-method:hover {
+      border-color: var(--teal);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-glow);
+      background: rgba(18, 171, 176, 0.12);
+    }
+
+    .contact-method:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .contact-method i {
+      font-size: 1.5rem;
+      color: var(--teal);
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-method span {
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .contact-method:hover span {
+      color: var(--teal-light);
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(135deg, rgba(18, 171, 176, 0.12), rgba(18, 171, 176, 0.06));
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 0.9rem;
+      text-align: center;
+      margin-top: 0.6rem;
+    }
+
+    .contact-card p {
+      margin-bottom: 0.7rem;
+      font-size: 0.98rem;
+      padding: 0;
+    }
+
+    .email-link {
+      color: var(--teal);
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px dashed var(--teal);
+      padding-bottom: 2px;
+      transition: var(--transition);
+    }
+
+    .email-link:hover {
+      border-bottom-style: solid;
+      text-shadow: 0 0 10px var(--teal-glow);
+    }
+
+    .contact-card ul {
+      text-align: left;
+      margin: 0.6rem auto 0.6rem;
+      max-width: 100%;
+      padding-left: 1.2rem;
+    }
+
+    /* FAQ Section */
+    .faq-item {
+      margin-bottom: 1rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .faq-question {
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .faq-question i {
+      color: var(--teal);
+      font-size: 0.9rem;
+    }
+
+    .faq-answer {
+      color: var(--gray-light);
+      padding-left: 1.4rem;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1rem 0.5rem 0.8rem;
+      color: var(--gray);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      margin-top: 1rem;
+    }
+
+    footer a {
+      color: var(--teal);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    footer a:hover {
+      text-shadow: 0 0 12px var(--teal-glow);
+      color: var(--teal-light);
+    }
+
+    .quick-links-heading {
+      text-align: center;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 0.8rem;
+      position: relative;
+    }
+
+    .quick-links-heading::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: var(--teal);
+      margin: 0.4rem auto 0;
+      border-radius: 2px;
+    }
+
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.5rem 0.8rem;
+      margin: 0.8rem auto 1rem;
+      padding: 0;
+      list-style: none;
+      max-width: 480px;
+    }
+
+    .quick-links li a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: #ffffff;
+      padding: 0.45rem 0.3rem;
+      transition: var(--transition);
+    }
+
+    .quick-links li a i {
+      font-size: 0.95rem;
+      color: var(--teal);
+      width: 18px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+
+    .quick-links li a:hover {
+      color: var(--teal-light);
+      transform: translateX(3px);
+    }
+
+    .quick-links li a:hover i {
+      color: var(--teal-light);
+    }
+
+    .footer-bottom {
+      margin-top: 0.8rem;
+      padding-top: 0.8rem;
+      border-top: 1px solid rgba(18, 171, 176, 0.15);
+      font-size: 0.8rem;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    section {
+      animation: fadeInUp 0.5s ease forwards;
+      opacity: 0;
+    }
+
+    section:nth-child(1) { animation-delay: 0.1s; opacity: 1; }
+    section:nth-child(2) { animation-delay: 0.15s; }
+    section:nth-child(3) { animation-delay: 0.2s; }
+    section:nth-child(4) { animation-delay: 0.25s; }
+    section:nth-child(5) { animation-delay: 0.3s; }
+    section:nth-child(6) { animation-delay: 0.35s; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .container { padding: 0.8rem 0.6rem 1.5rem; }
+      header { padding: 0.8rem 0.3rem 0.6rem; }
+      .site-name-white, .site-name-teal { font-size: 2.4rem; }
+      .page-title { font-size: 1.3rem; }
+      h2 { font-size: 1.1rem; }
+      
+      .quick-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.4rem 0.6rem;
+        max-width: 340px;
+      }
+      
+      .quick-links li a {
+        font-size: 0.84rem;
+        padding: 0.4rem 0.2rem;
+      }
+      
+      section, .intro, .contact-card {
+        padding: 0.9rem 0.7rem;
+      }
+      
+      footer { padding: 0.8rem 0.3rem 0.6rem; }
+    }
+
+    @media (max-width: 360px) {
+      .site-name-white, .site-name-teal { font-size: 2.1rem; }
+      .quick-links { max-width: 100%; }
+    }
+
+    .mono {
+      font-family: 'JetBrains Mono', monospace;
+      color: var(--teal);
+      background: rgba(18, 171, 176, 0.12);
+      padding: 0.1rem 0.3rem;
+      border-radius: 4px;
+      font-size: 0.92em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    
+    <!-- Header -->
+    <header>
+      <div class="site-name">
+        <span class="site-name-white">TechTonic</span>
+        <span class="site-name-teal">Times</span>
+      </div>
+      <div class="page-title">Contact Us</div>
+      <span class="effective-date">We're here to help • <strong>Response within 24-48 hours</strong></span>
+      
+      <div class="intro">
+        Have a question, feedback, or want to collaborate with <strong>TechTonic Times</strong>? We'd love to hear from you.<br><br>
+        Reach out using any of the methods below, and our team will get back to you as soon as possible.
+      </div>
+    </header>
+
+    <!-- Contact Methods -->
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Choose the method that works best for you:</p>
+      
+      <div class="contact-methods">
+        <a href="mailto:businesscontact1107@gmail.com" class="contact-method">
+          <i class="fas fa-envelope"></i>
+          <span>Email Us</span>
+        </a>
+        <a href="https://techtonic-times.github.io/article/" class="contact-method">
+          <i class="fas fa-globe"></i>
+          <span>Visit Website</span>
+        </a>
+        <a href="terms.html" class="contact-method">
+          <i class="fas fa-file-contract"></i>
+          <span>Terms & Conditions</span>
+        </a>
+        <a href="privacy.html" class="contact-method">
+          <i class="fas fa-lock"></i>
+          <span>Privacy Policy</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Email Contact -->
+    <section>
+      <h2>Email Contact</h2>
+      <p>For general inquiries, content questions, or partnership opportunities, email us directly:</p>
+      
+      <div class="contact-card">
+        <p><strong>Primary Contact:</strong><br>
+        <a href="mailto:businesscontact1107@gmail.com" class="email-link">businesscontact1107@gmail.com</a></p>
+        
+        <p style="text-align: left; margin: 0.6rem 0 0.4rem; font-size: 0.9rem;"><strong>For faster responses, please include:</strong></p>
+        <ul style="text-align: left;">
+          <li>Your name and organization (if applicable)</li>
+          <li>Subject line indicating your inquiry type</li>
+          <li>Relevant article URL or topic reference</li>
+          <li>Clear description of your question or request</li>
+        </ul>
+        <p style="margin-top: 0.6rem;">We review all messages and respond within 24-48 business hours.</p>
+      </div>
+    </section>
+
+    <!-- Inquiry Types -->
+    <section>
+      <h2>What We Can Help With</h2>
+      <p>TechTonic Times welcomes various types of inquiries:</p>
+      <ul>
+        <li><strong>Editorial Questions:</strong> Corrections, clarifications, or feedback on published content</li>
+        <li><strong>Contributions:</strong> Pitch ideas for articles, guest posts, or expert commentary</li>
+        <li><strong>Partnerships:</strong> Collaboration opportunities, syndication, or media inquiries</li>
+        <li><strong>Technical Support:</strong> Website issues, accessibility concerns, or bug reports</li>
+        <li><strong>Legal & Copyright:</strong> DMCA requests, content removal, or licensing questions</li>
+        <li><strong>Advertising:</strong> Sponsorship inquiries or advertising partnership opportunities</li>
+      </ul>
+      <div class="highlight">
+        For copyright or DMCA requests, please refer to our <a href="terms.html" style="color:var(--teal);text-decoration:none;">Terms & Conditions</a> for required documentation.
+      </div>
+    </section>
+
+    <!-- Response Expectations -->
+    <section>
+      <h2>Response Expectations</h2>
+      <p>To help us serve you better, please note:</p>
+      <ul>
+        <li><strong>General inquiries:</strong> Response within 24-48 business hours</li>
+        <li><strong>Urgent corrections:</strong> Prioritized review for factual errors in published content</li>
+        <li><strong>Legal requests:</strong> May require additional verification and processing time</li>
+        <li><strong>Weekends & holidays:</strong> Responses may be delayed during non-business days</li>
+      </ul>
+      <div class="warning">
+        We do not provide technical support for third-party websites, products, or services mentioned in our articles.
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section>
+      <h2>Frequently Asked Questions</h2>
+      
+      <div class="faq-item">
+        <div class="faq-question"><i class="fas fa-circle-question"></i> Can I submit a news tip or story idea?</div>
+        <div class="faq-answer">Yes! Email us with your tip, including any relevant sources or documentation. All submissions are reviewed by our editorial team.</div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question"><i class="fas fa-circle-question"></i> Do you accept guest posts or contributions?</div>
+        <div class="faq-answer">We occasionally accept expert contributions. Please email us with your background, proposed topic, and writing samples for consideration.</div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question"><i class="fas fa-circle-question"></i> How do I report an error in an article?</div>
+        <div class="faq-answer">Email us with the article URL, specific error description, and supporting evidence. Verified corrections are updated promptly with transparency notes.</div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question"><i class="fas fa-circle-question"></i> Can I republish your content?</div>
+        <div class="faq-answer">Full republication requires written permission. You may share links or quote short excerpts with proper attribution. See our <a href="terms.html" style="color:var(--teal);text-decoration:none;">Terms & Conditions</a> for details.</div>
+      </div>
+    </section>
+
+    <!-- Location & Timezone -->
+    <section>
+      <h2>Operating Information</h2>
+      <p><strong>TechTonic Times</strong> is operated from Bangladesh and serves a global audience.</p>
+      <p>Our team monitors inquiries across multiple time zones. For reference:</p>
+      <ul>
+        <li><strong>Primary timezone:</strong> Bangladesh Standard Time (BST, UTC+6)</li>
+        <li><strong>Business hours:</strong> Sunday–Thursday, 9:00 AM – 6:00 PM BST</li>
+        <li><strong>Weekend:</strong> Friday–Saturday (limited monitoring)</li>
+      </ul>
+      <div class="highlight">
+        Messages received outside business hours will be addressed on the next business day.
+      </div>
+    </section>
+
+    <!-- Footer with Quick Links -->
+    <footer>
+      <div class="quick-links-heading">Quick Links</div>
+      
+      <ul class="quick-links">
+        <li>
+          <a href="https://techtonic-times.github.io/article/">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="about-us.html">
+            <i class="fas fa-info-circle"></i>
+            <span>About Us</span>
+          </a>
+        </li>
+        <li>
+          <a href="contact-us.html">
+            <i class="fas fa-envelope"></i>
+            <span>Contact Us</span>
+          </a>
+        </li>
+        <li>
+          <a href="terms.html">
+            <i class="fas fa-file-contract"></i>
+            <span>Terms & Conditions</span>
+          </a>
+        </li>
+        <li>
+          <a href="disclaimer.html">
+            <i class="fas fa-shield-alt"></i>
+            <span>Disclaimer</span>
+          </a>
+        </li>
+        <li>
+          <a href="privacy.html">
+            <i class="fas fa-lock"></i>
+            <span>Privacy Policy</span>
+          </a>
+        </li>
+      </ul>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 TechTonic Times. All rights reserved.</p>
+        <p><a href="https://techtonic-times.github.io/article/">techtonic-times.github.io/article/</a></p>
+        <p style="margin-top: 0.1rem; color: var(--gray);">
+          Last updated: May 15, 2026
+        </p>
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
