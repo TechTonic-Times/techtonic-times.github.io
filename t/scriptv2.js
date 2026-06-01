@@ -11,7 +11,7 @@ let _articleDataCache = null;
 async function getArticleData() {
   if (_articleDataCache) return _articleDataCache;
   try {
-    const res = await fetch('article-data.json');
+    const res = await fetch('https://techtonic-times.github.io/article-data.json');
     if (!res.ok) throw new Error('Network response failed');
     _articleDataCache = await res.json();
     return _articleDataCache;
