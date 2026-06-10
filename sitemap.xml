@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/f/brain-computer-interface-china-neo-impact-1006.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/a/ai-autonomous-science-discovery-future-of-research-0906.html</loc>
     <lastmod>2026-06-09</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
 <url>
     <loc>https://techtonic-times.github.io/t/room-temperature-quantum-computing-breakthrough-0706.html</loc>
