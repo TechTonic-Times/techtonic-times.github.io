@@ -1,5 +1,15 @@
 [
 {
+        "title": "Can Biocomputing AI Energy Crisis Be Solved by Brain Cells?",
+        "excerpt": "Could human neurons power future AI more efficiently? Find out why the biocomputing AI energy crisis is pushing scientists toward brain-based computing.",
+        "category": "future",
+        "tag": "Future Technology",
+        "readTime": "8 min",
+        "timestamp": "2026-06-12T11:45:00Z",
+        "image": "https://techtonic-times.github.io/img/0626/tiny-brain-cells-powering-ai-real.webp",
+        "url": "https://techtonic-times.github.io/f/biocomputing-ai-energy-crisis-human-neuron-ai-1206.html"
+    },
+        {
         "title": "First Human Trial Tests Whether Cell Rejuvenation Can Reverse Aging",
         "excerpt": "Can scientists truly slow biological aging? The reverse aging 2026 trial explores cell rejuvenation and longevity science. Find out why it matters.",
         "category": "science",
@@ -188,17 +198,5 @@
         "timestamp": "2026-05-25T17:45:00Z",
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHKL03YV_GXNJPcbUSMSPn0ZZtgs2OlomCFI86CoIzc5vBGO3oAs52x8Fro215O8uvdDoKPaNyQ7G2BZQI0vgc-soXexRNWwqL3r5UNkXAVewtFfkl4TMFnxJHcposjUJ8ugb9EP7nyyqldaeSxBwcVgFW_2570VD2nSO1_29wLhIj3XE/s1600/wifi-sees-through-walls.webp",
         "url": "https://techtonic-times.github.io/article/wifi-surveillance-technology-privacy-research-2505.html"
-    },
-        
-        
-  {
-        "title": "Earth's Magnetic Shield Has a Weak Spot. NASA Just Sent Satellites Into It",
-        "excerpt": "NASA just sent twin satellites into Earth's magnetic weak spot — the polar cusp. Here's what magnetic reconnection means for your GPS, power grid, and satellites.",
-        "category": "science",
-        "tag": "Science & Research",
-        "readTime": "8 min",
-        "timestamp": "2026-04-20T12:01:00Z",
-        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz4p7p7Z7SZ1s5ruJhXhGrbjCAMHSYxywA3HmgLRrHoSnW6tSy5ND-nBE12YQs-O_aGZsL6ciVUSAog-Y4CTY19ex1mhNDIZn_NkNozbEBLYOAdQ5MhxydLw7xtCGLBR9s74i7oGjA86_KD930QpKUxS947bbijI5Sg79wlqOs2uJOSc0/s1600/solar-storms-earth-hidden-shield.webp",
-        "url": "https://techtonic-times.github.io/article/nasa-tracers-mission-earth-magnetic-weak-spot-2005.html"
- }
+        }
 ]
