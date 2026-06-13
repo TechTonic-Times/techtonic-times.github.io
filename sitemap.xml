@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/f/quiet-supersonic-flight-sonic-boom-future-1306.html</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/f/biocomputing-ai-energy-crisis-human-neuron-ai-1206.html</loc>
     <lastmod>2026-06-12</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/s/reverse-aging-2026-trial-aging-medicine-test-1106.html</loc>
