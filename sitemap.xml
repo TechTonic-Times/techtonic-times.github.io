@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/a/ai-chips-next-breakthrough-2806.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/f/dna-data-storage-beyond-silicon-2706.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>yearly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/a/ai-data-centers-moving-to-space-2606.html</loc>
