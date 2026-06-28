@@ -5,9 +5,19 @@
     <link>https://techtonic-times.github.io/</link>
     <description>Latest technology, science, and future tech news</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Jun 2026 00:00:00 GMT</lastBuildDate>
     <atom:link href="https://techtonic-times.github.io/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <item>
+      <title>Are AI Chips About to Overtake Models in the AI Race?</title>
+      <link>https://techtonic-times.github.io/a/ai-chips-next-breakthrough-2806.html</link>
+      <description>Could AI chips matter more than bigger models? Explore the hardware revolution driving machine learning performance and find out why experts are watching.</description>
+      <category>AI & Data</category>
+      <pubDate>Sun, 28 Jun 2026 05:05:00 GMT</pubDate>
+      <enclosure url="https://techtonic-times.github.io/img/0626/the-real-ai-breakthrough-starts-with-chips.webp" type="image/webp"/>
+      <guid>https://techtonic-times.github.io/a/ai-chips-next-breakthrough-2806.html</guid>
+    </item>
+   
     <item>
       <title>Can DNA Data Storage Save Us Before Silicon Runs Out?</title>
       <link>https://techtonic-times.github.io/f/dna-data-storage-beyond-silicon-2706.html</link>
