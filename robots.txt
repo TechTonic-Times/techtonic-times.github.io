@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://techtonic-times.github.io/sitemap.xml
+Sitemap: https://techtonic-times.github.io/sitemap-new.xml
