@@ -3,10 +3,16 @@
 
   <!-- LATEST ARTICLE  - Highest Priority -->
 <url>
+    <loc>https://techtonic-times.github.io/f/liquid-co2-energy-storage-renewable-power-1907.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/s/sugar-discovered-interstellar-space-life-origins-1807.html</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/d/dumb-phone-movement-retro-tech-trend-1707.html</loc>
