@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <!-- LATEST ARTICLE  - Highest Priority -->
- <url>
+<url>
+    <loc>https://techtonic-times.github.io/t/huawei-dram-factory-ram-prices-2807.html</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://techtonic-times.github.io/s/ai-discovers-brp-natural-ozempic-2707.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://techtonic-times.github.io/s/plastic-to-hydrogen-breakthrough-2607.html</loc>
